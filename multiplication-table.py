@@ -1,7 +1,7 @@
 """
 multiplication-table.py
 Author: Suhan Gui
-Credit: http://stackoverflow.com/questions/493386/how-to-print-in-python-without-newline-or-space
+Credit: None
 Assignment: Multiplication Table
 
 Write and submit a Python program that prints a multiplication table. The user 
@@ -26,8 +26,8 @@ length= int(input("Height of multiplication table: "))
 x=range(1,width+1)
 y=range(1,length+1)
 
-for w in x:
-    for z in y:
+for w in y:
+    for z in x:
         print(w*z, end="  ")
         if z==width:
-            print("\n")
+            print("")
