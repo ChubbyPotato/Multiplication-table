@@ -29,3 +29,5 @@ y=range(1,length+1)
 for w in x:
     for z in y:
         print(w*z, end="  ")
+        if z==width:
+            print("\n")
